@@ -18,7 +18,7 @@ if (navigator.geolocation) {
 
             // console.log(long, lat);
 
-            const api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=metric&appid=8368787296b15cf1c0f66331292a441d`;
+            const api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=metric&appid=${api_key}`;
             
             fetch(api)
                 .then(response => {

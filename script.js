@@ -103,7 +103,7 @@ searchBtn.addEventListener('click', () =>{
     //const desc =  document.querySelector('#desc');
 
     
-    let searchBarApi = `https://api.openweathermap.org/data/2.5/weather?q=${searchLocation}&units=metric&appid=8368787296b15cf1c0f66331292a441d`;
+    let searchBarApi = `https://api.openweathermap.org/data/2.5/weather?q=${searchLocation}&units=metric&appid=${api_key}`;
     // console.log(searchLocation) 
 
     fetch(searchBarApi) 
